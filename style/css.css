@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input {
+    margin: 7px 0;
+    padding: 7px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 7px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
